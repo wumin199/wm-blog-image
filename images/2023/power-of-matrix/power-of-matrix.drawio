@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Ub1HZWV3o09gRBObfq5j" name="矩阵变换的理解">
-        <mxGraphModel dx="1300" dy="759" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+        <mxGraphModel dx="1964" dy="1240" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -397,7 +397,7 @@
                 <mxCell id="z90qtjDDIyWj6iaFOSli-247" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;一个点，发生了运动（假设是线性变换） -&amp;gt; 移动到了一个新的点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="97" y="1423" width="1160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="z90qtjDDIyWj6iaFOSli-307" value="理解方法：线性运动(M)可以理解为坐标系发生了线性变换，同时固定在原来坐标系上的点也跟着发生了运动。注意运动后的点用统一的（原来的）坐标系进行表示" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=27;fontSize=35;fontColor=#000000;" parent="1" vertex="1">
+                <mxCell id="z90qtjDDIyWj6iaFOSli-307" value="理解方法：&lt;font color=&quot;#ff0000&quot;&gt;线性运动(M)可以理解为坐标系发生了线性变换&lt;/font&gt;，同时固定在原来坐标系上的点也跟着发生了运动。注意运动后的点用统一的（原来的）坐标系进行表示" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=27;fontSize=35;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="73" y="1554" width="1391" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="z90qtjDDIyWj6iaFOSli-308" value="x = Ex&lt;br&gt;z = Ez&lt;br&gt;z = Mx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;strokeWidth=27;fontColor=#000000;" parent="1" vertex="1">
@@ -1599,7 +1599,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="RhI6Wi9aW5jrvvRkMTWN" name="理解XVV^T">
-        <mxGraphModel dx="927" dy="1705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="1" shadow="0">
+        <mxGraphModel dx="1506" dy="2533" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1717,7 +1717,7 @@
                 <mxCell id="mTzwLqqa-nGqkQeWjX6M-7" value="4x2" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;overflow=fill;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="574" y="-141" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="mTzwLqqa-nGqkQeWjX6M-9" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 24px; font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;方向向量&lt;b style=&quot;&quot;&gt;V&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;(每个方向用4个特征值（坐标轴的值）来确定，总共有2个方向)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;(如1个方向是花萼长方向，另1个方向是花瓣宽方向)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;labelBackgroundColor=none;overflow=fill;" parent="1" vertex="1">
+                <mxCell id="mTzwLqqa-nGqkQeWjX6M-9" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 24px; font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;方向向量&lt;b style=&quot;&quot;&gt;V(这里假设是单位方向向量）&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;(每个方向用4个特征值（坐标轴的值）来确定，总共有2个方向)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;(如1个方向是花萼长方向，另1个方向是花瓣宽方向)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;labelBackgroundColor=none;overflow=fill;" parent="1" vertex="1">
                     <mxGeometry x="368" y="-498" width="473" height="84" as="geometry"/>
                 </mxCell>
                 <mxCell id="mTzwLqqa-nGqkQeWjX6M-11" value="" style="endArrow=classic;html=1;fontSize=12;fontColor=#000000;labelBackgroundColor=none;strokeColor=#000000;" parent="1" source="mTzwLqqa-nGqkQeWjX6M-9" target="mTzwLqqa-nGqkQeWjX6M-10" edge="1">
@@ -1759,11 +1759,11 @@
                 <mxCell id="q5HTFVYwc2TVnEJuavjW-9" value="=" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="754" y="-151" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="M1d300bwdGb90ZLZ3Tjm-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;样本点1在方向1上的&lt;font&gt;标量投影&lt;/font&gt;(坐标值)&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;labelBackgroundColor=none;strokeColor=none;" parent="1" vertex="1">
+                <mxCell id="M1d300bwdGb90ZLZ3Tjm-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;样本点1在方向1上的&lt;font&gt;标量投影&lt;/font&gt;(坐标值)，假设方向向量是单位向量，XV才是标量投影，否则还需要除以方向向量的长度进行归一化&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;labelBackgroundColor=none;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1154" y="-393" width="390" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="M1d300bwdGb90ZLZ3Tjm-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;样本点1在方向2上的标量投影(坐标值)&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;labelBackgroundColor=none;strokeColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1154" y="-348" width="360" height="40" as="geometry"/>
+                    <mxGeometry x="1154" y="-323" width="360" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="M1d300bwdGb90ZLZ3Tjm-7" value="" style="endArrow=classic;html=1;fontSize=16;fontColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#000000;" parent="1" source="M1d300bwdGb90ZLZ3Tjm-4" target="mTzwLqqa-nGqkQeWjX6M-13" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1798,7 +1798,7 @@
                 <mxCell id="M1d300bwdGb90ZLZ3Tjm-15" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 24px; font-size: 16px;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; text-align: left;&quot;&gt;&lt;b&gt;XV&lt;/b&gt;：n个样本点在若干个方向向量V(各列)的标量投影&lt;br&gt;本来一个样本点有4个特征了，现在一个样本点只有2个特征&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=#000000;labelBackgroundColor=none;overflow=fill;" parent="1" vertex="1">
                     <mxGeometry x="934" y="-486" width="440" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="M1d300bwdGb90ZLZ3Tjm-16" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;&quot;&gt;降维：样本点数量不变，一个样本点的特征值变少了（删除某些特征值，组合新的特征值等）&lt;br&gt;&lt;br&gt;一个样本点最初有几个特征值，就有几个参考坐标轴&lt;br&gt;&lt;br&gt;&lt;/span&gt;新的方向向量：新的坐标轴，可能是原来坐标轴的一部分(降维)，或者组合(正交或者非正交组合)&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;X：n个样本点，每个样本点都有几个特征&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;&quot;&gt;V：特征的方向向量(若干个，每列一个方向向量)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;&quot;&gt;XV：每个样本点在V方向向量上的标量投影&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;&quot;&gt;XVV^T：每个样本点在V方向上的向量投影&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=#000000;comic=0;expand=1;container=0;backgroundOutline=0;autosize=0;overflow=fill;" parent="1" vertex="1">
+                <mxCell id="M1d300bwdGb90ZLZ3Tjm-16" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;&quot;&gt;降维：样本点数量不变，一个样本点的特征值变少了（删除某些特征值，组合新的特征值等）&lt;br&gt;&lt;br&gt;一个样本点最初有几个特征值，就有几个参考坐标轴&lt;br&gt;&lt;br&gt;&lt;/span&gt;新的方向向量：新的坐标轴，可能是原来坐标轴的一部分(降维)，或者组合(正交或者非正交组合)&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;X：n个样本点，每个样本点都有几个特征&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;&quot;&gt;V：特征的方向向量(若干个，每列一个方向向量)，这里假设是单位方向向量&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;&quot;&gt;XV：每个样本点在V方向向量上的标量投影，只有V是单位方向向量，XV才是标量投影&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;&quot;&gt;XVV^T：每个样本点在V方向上的向量投影&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=#000000;comic=0;expand=1;container=0;backgroundOutline=0;autosize=0;overflow=fill;" parent="1" vertex="1">
                     <mxGeometry x="63" y="-1142" width="684.5" height="380" as="geometry"/>
                 </mxCell>
                 <mxCell id="M1d300bwdGb90ZLZ3Tjm-17" value="降维指的是降低特征值的维度，点数并没有降低" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
@@ -2086,133 +2086,133 @@
                 <mxCell id="M1d300bwdGb90ZLZ3Tjm-106" value="XVV^T：&lt;br&gt;A*方向1向量 + B*方向2向量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;dashed=1;overflow=fill;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="901.5" y="938" width="170" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="5hBDbDDndDfoid9f-SBu-10" value="XV" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                <mxCell id="5hBDbDDndDfoid9f-SBu-10" value="XV" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="224" y="219" width="50" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="4IVE5nw8AxX9C9lzIOdg" name="正交投影">
-        <mxGraphModel dx="520" dy="304" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+        <mxGraphModel dx="617" dy="390" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-27" value="&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;目标点D往xyz方向投影。&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;(xyz可以不是正交单位向量)&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=default;comic=0;expand=1;container=0;backgroundOutline=0;autosize=0;overflow=fill;fontFamily=Helvetica;" vertex="1" parent="1">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-27" value="&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;目标点D往xyz方向投影。&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;(xyz可以不是正交单位向量)&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=default;comic=0;expand=1;container=0;backgroundOutline=0;autosize=0;overflow=fill;fontFamily=Helvetica;" parent="1" vertex="1">
                     <mxGeometry x="141" y="125" width="94" height="92" as="geometry"/>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-29" value="" style="group;rotation=0;" vertex="1" connectable="0" parent="1">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-29" value="" style="group;rotation=0;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="249" y="93" width="279" height="115" as="geometry"/>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-32" value="" style="group" vertex="1" connectable="0" parent="Hen-T6HZxPmh_9xywBtA-29">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-32" value="" style="group" parent="Hen-T6HZxPmh_9xywBtA-29" vertex="1" connectable="0">
                     <mxGeometry x="23" y="-4" width="251" height="119" as="geometry"/>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-6" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=15;fontColor=#000000;labelBackgroundColor=none;strokeColor=#000000;fontFamily=Helvetica;fillColor=none;" edge="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-6" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=15;fontColor=#000000;labelBackgroundColor=none;strokeColor=#000000;fontFamily=Helvetica;fillColor=none;" parent="Hen-T6HZxPmh_9xywBtA-32" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="41" y="89" as="sourcePoint"/>
                         <mxPoint x="63" y="10" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-7" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=15;fontColor=#000000;labelBackgroundColor=none;strokeColor=#000000;fontFamily=Helvetica;fillColor=none;" edge="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-7" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=15;fontColor=#000000;labelBackgroundColor=none;strokeColor=#000000;fontFamily=Helvetica;fillColor=none;" parent="Hen-T6HZxPmh_9xywBtA-32" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="41" y="89" as="sourcePoint"/>
                         <mxPoint x="246" y="89" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-8" value="&lt;font&gt;x&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;fontFamily=Helvetica;rotation=0;" vertex="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-8" value="&lt;font&gt;x&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;fontFamily=Helvetica;rotation=0;" parent="Hen-T6HZxPmh_9xywBtA-32" vertex="1">
                     <mxGeometry x="225" y="89" width="26" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-9" value="&lt;font&gt;z&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;fontFamily=Helvetica;rotation=0;" vertex="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-9" value="&lt;font&gt;z&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;fontFamily=Helvetica;rotation=0;" parent="Hen-T6HZxPmh_9xywBtA-32" vertex="1">
                     <mxGeometry x="34" width="26" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-10" value="" style="endArrow=classic;html=1;fontSize=15;fontColor=#000000;labelBackgroundColor=none;strokeColor=#000000;fontFamily=Helvetica;fillColor=none;" edge="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-10" value="" style="endArrow=classic;html=1;fontSize=15;fontColor=#000000;labelBackgroundColor=none;strokeColor=#000000;fontFamily=Helvetica;fillColor=none;" parent="Hen-T6HZxPmh_9xywBtA-32" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="41" y="89" as="sourcePoint"/>
                         <mxPoint x="186" y="42" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-11" value="&lt;font&gt;y&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;fontFamily=Helvetica;rotation=0;" vertex="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-11" value="&lt;font&gt;y&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;fontFamily=Helvetica;rotation=0;" parent="Hen-T6HZxPmh_9xywBtA-32" vertex="1">
                     <mxGeometry x="176" y="37" width="26" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF0000;rotation=0;" vertex="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF0000;rotation=0;" parent="Hen-T6HZxPmh_9xywBtA-32" vertex="1">
                     <mxGeometry x="114" y="34" width="2.2200525854513575" height="2.2200525854513575" as="geometry"/>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-13" value="" style="endArrow=none;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;" edge="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-13" value="" style="endArrow=none;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;" parent="Hen-T6HZxPmh_9xywBtA-32" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="88" y="32" as="sourcePoint"/>
                         <mxPoint x="114" y="35" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-14" value="" style="endArrow=none;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Hen-T6HZxPmh_9xywBtA-32" target="Hen-T6HZxPmh_9xywBtA-12">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-14" value="" style="endArrow=none;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="Hen-T6HZxPmh_9xywBtA-32" target="Hen-T6HZxPmh_9xywBtA-12" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="115" y="76" as="sourcePoint"/>
                         <mxPoint x="126" y="41" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-15" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;strokeColor=#FF0000;" edge="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-15" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;strokeColor=#FF0000;" parent="Hen-T6HZxPmh_9xywBtA-32" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="42" y="89" as="sourcePoint"/>
                         <mxPoint x="116" y="35" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-16" value="" style="endArrow=none;html=1;dashed=1;dashPattern=8 8;strokeColor=#000000;" edge="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-16" value="" style="endArrow=none;html=1;dashed=1;dashPattern=8 8;strokeColor=#000000;" parent="Hen-T6HZxPmh_9xywBtA-32" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="81" y="88" as="sourcePoint"/>
                         <mxPoint x="115" y="76" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-17" value="" style="endArrow=none;html=1;dashed=1;dashPattern=8 8;strokeColor=#000000;" edge="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-17" value="" style="endArrow=none;html=1;dashed=1;dashPattern=8 8;strokeColor=#000000;" parent="Hen-T6HZxPmh_9xywBtA-32" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="84" y="75" as="sourcePoint"/>
                         <mxPoint x="113" y="76" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-18" value="" style="endArrow=none;html=1;dashed=1;dashPattern=8 8;strokeColor=#000000;" edge="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-18" value="" style="endArrow=none;html=1;dashed=1;dashPattern=8 8;strokeColor=#000000;" parent="Hen-T6HZxPmh_9xywBtA-32" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="52" y="44" as="sourcePoint"/>
                         <mxPoint x="87" y="32" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-19" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;strokeColor=#FF0000;" edge="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-19" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;strokeColor=#FF0000;" parent="Hen-T6HZxPmh_9xywBtA-32" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="42" y="89" as="sourcePoint"/>
                         <mxPoint x="79" y="88" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-20" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;strokeColor=#FF0000;" edge="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-20" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;strokeColor=#FF0000;" parent="Hen-T6HZxPmh_9xywBtA-32" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="44" y="88" as="sourcePoint"/>
                         <mxPoint x="85" y="75" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-21" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;strokeColor=#FF0000;" edge="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-21" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;strokeColor=#FF0000;" parent="Hen-T6HZxPmh_9xywBtA-32" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="40" y="89" as="sourcePoint"/>
                         <mxPoint x="52" y="47" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-23" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;proj_x(D)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;rotation=0;" vertex="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-23" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;proj_x(D)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;rotation=0;" parent="Hen-T6HZxPmh_9xywBtA-32" vertex="1">
                     <mxGeometry x="38" y="86" width="55" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-24" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;proj_z(D)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;rotation=0;" vertex="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-24" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;proj_z(D)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;rotation=0;" parent="Hen-T6HZxPmh_9xywBtA-32" vertex="1">
                     <mxGeometry y="30" width="55" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-25" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;proj_y(D)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;rotation=0;" vertex="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-25" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;proj_y(D)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;rotation=0;" parent="Hen-T6HZxPmh_9xywBtA-32" vertex="1">
                     <mxGeometry x="60" y="64" width="47" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-28" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 11px;&quot;&gt;D&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=default;comic=0;expand=1;container=0;backgroundOutline=0;autosize=0;overflow=fill;fontFamily=Helvetica;rotation=0;" vertex="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-28" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 11px;&quot;&gt;D&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=default;comic=0;expand=1;container=0;backgroundOutline=0;autosize=0;overflow=fill;fontFamily=Helvetica;rotation=0;" parent="Hen-T6HZxPmh_9xywBtA-32" vertex="1">
                     <mxGeometry x="124" y="21" width="12.077922077922077" height="18.385714285714286" as="geometry"/>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-31" value="D" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#FF0000;" vertex="1" parent="Hen-T6HZxPmh_9xywBtA-32">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-31" value="D" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#FF0000;" parent="Hen-T6HZxPmh_9xywBtA-32" vertex="1">
                     <mxGeometry x="110.08000000000004" y="17.689999999999998" width="26" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-33" value="D向量 == proj_x(D) + proj_y(D) + proj_z(D) = 帽子矩阵*D" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#FF0000;overflow=fill;" vertex="1" parent="1">
-                    <mxGeometry x="130" y="224" width="296" height="25" as="geometry"/>
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-33" value="往超平面[x,y,z]投影后的投影向量 == proj_x(D) + proj_y(D) + proj_z(D) = 帽子矩阵*D" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#FF0000;overflow=fill;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="224" width="426" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-36" value="&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;如果把原来的坐标系xyz施密特正交化到q1,q2,q3&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=default;comic=0;expand=1;container=0;backgroundOutline=0;autosize=0;overflow=fill;fontFamily=Helvetica;" vertex="1" parent="1">
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-36" value="&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;如果把原来的坐标系xyz施密特正交化到q1,q2,q3（正交且是单位向量）&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=default;comic=0;expand=1;container=0;backgroundOutline=0;autosize=0;overflow=fill;fontFamily=Helvetica;" parent="1" vertex="1">
                     <mxGeometry x="133" y="258" width="335" height="42" as="geometry"/>
                 </mxCell>
-                <mxCell id="Hen-T6HZxPmh_9xywBtA-37" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;/p&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 11px; text-align: center;&quot;&gt;D在新坐标系q1/q2/q3(由原坐标系施密特正交化而来)的表示是：proj_q1(D)&amp;nbsp; + proj_q2(D) + proj_q3(D)，张量积写法（帽子矩阵推导过来的）是：&lt;br&gt;&amp;nbsp;(&lt;/span&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;q1&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#ff0000&quot;&gt;⊗q1 +&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 11px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;q2&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#ff0000&quot;&gt;⊗q2 +&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 11px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;q3&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#ff0000&quot;&gt;⊗q3)D&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#ff0000&quot;&gt;&amp;nbsp; == I*Vec(D) = Vec(D) = 原来的D向量&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=default;comic=0;expand=1;container=0;backgroundOutline=0;autosize=0;overflow=fill;fontFamily=Helvetica;" vertex="1" parent="1">
-                    <mxGeometry x="130" y="282" width="421" height="95" as="geometry"/>
+                <mxCell id="Hen-T6HZxPmh_9xywBtA-37" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;/p&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 11px; text-align: center;&quot;&gt;D在新坐标系q1/q2/q3(由原坐标系施密特正交化而来)的表示是：proj_q1(D)&amp;nbsp; + proj_q2(D) + proj_q3(D)，张量积写法（帽子矩阵推导过来的）是：&lt;br&gt;&amp;nbsp;(&lt;/span&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;q1&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#ff0000&quot;&gt;⊗q1 +&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 11px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;q2&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#ff0000&quot;&gt;⊗q2 +&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 11px; text-align: center;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;q3&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#ff0000&quot;&gt;⊗q3)D&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#ff0000&quot;&gt;&amp;nbsp; == I*Vec(D) = Vec(D) = 原来的D向量&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; text-align: center;&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#ff0000&quot;&gt;当然假设这里q1,q2, q3构成方阵&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;fontColor=default;comic=0;expand=1;container=0;backgroundOutline=0;autosize=0;overflow=fill;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="282" width="421" height="124" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

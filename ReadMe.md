@@ -2,4 +2,4 @@
 
 ## introduction
 
-- [GitHub Proxy](https://ghproxy.com/)
+- [GitHub Proxy](https://gh-proxy.com/)
