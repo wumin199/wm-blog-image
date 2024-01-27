@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="4IVE5nw8AxX9C9lzIOdg" name="正交投影">
-        <mxGraphModel dx="753" dy="409" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+        <mxGraphModel dx="964" dy="613" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -125,7 +125,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="Ub1HZWV3o09gRBObfq5j" name="矩阵变换的理解">
-        <mxGraphModel dx="753" dy="409" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+        <mxGraphModel dx="1285" dy="909" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -459,7 +459,7 @@
                         <mxPoint x="700" y="790" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="z90qtjDDIyWj6iaFOSli-176" value="" style="endArrow=classic;html=1;strokeColor=none;strokeWidth=1;fontSize=20;fontColor=#000000;exitX=0.586;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="z90qtjDDIyWj6iaFOSli-174" edge="1">
+                <mxCell id="z90qtjDDIyWj6iaFOSli-176" value="" style="endArrow=classic;html=1;strokeColor=#ad1a1a;strokeWidth=1;fontSize=20;fontColor=#000000;exitX=0.586;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="z90qtjDDIyWj6iaFOSli-174" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="430" y="590" as="sourcePoint"/>
                         <mxPoint x="590" y="420" as="targetPoint"/>
@@ -1724,7 +1724,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="RhI6Wi9aW5jrvvRkMTWN" name="理解XVV^T">
-        <mxGraphModel dx="753" dy="1578" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="1" shadow="0">
+        <mxGraphModel dx="964" dy="1851" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -2214,6 +2214,14 @@
                 <mxCell id="5hBDbDDndDfoid9f-SBu-10" value="XV" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="224" y="219" width="50" height="40" as="geometry"/>
                 </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="hJZKKV-YILX-cHhTKodt" name="椭圆与特征值分解">
+        <mxGraphModel dx="964" dy="682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
             </root>
         </mxGraphModel>
     </diagram>
