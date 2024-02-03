@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Ub1HZWV3o09gRBObfq5j" name="矩阵变换的理解">
-        <mxGraphModel dx="2600" dy="1518" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+        <mxGraphModel dx="1928" dy="1136" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -400,8 +400,8 @@
                 <mxCell id="z90qtjDDIyWj6iaFOSli-307" value="理解方法：&lt;font color=&quot;#ff0000&quot;&gt;线性运动(M)可以理解为坐标系发生了线性变换&lt;/font&gt;，同时固定在原来坐标系上的点也跟着发生了运动。注意运动后的点用统一的（原来的）坐标系进行表示" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=27;fontSize=35;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="73" y="1554" width="1391" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="z90qtjDDIyWj6iaFOSli-308" value="x = Ex&lt;br&gt;z = Ez&lt;br&gt;z = Mx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;strokeWidth=27;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="828" y="2034" width="122" height="138" as="geometry"/>
+                <mxCell id="z90qtjDDIyWj6iaFOSli-308" value="x = Ex&lt;br&gt;z = Ez&lt;br&gt;z = Mx=E(Mx)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;strokeWidth=27;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="771" y="2034" width="236" height="138" as="geometry"/>
                 </mxCell>
                 <mxCell id="z90qtjDDIyWj6iaFOSli-309" value="x和v都是基于E的表示&lt;br&gt;M表示：E坐标系被旋转等(线性变换)变换到M坐标系，刚开始E下的x -&amp;gt; v" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;strokeWidth=27;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="345" y="2223" width="1143" height="96" as="geometry"/>
