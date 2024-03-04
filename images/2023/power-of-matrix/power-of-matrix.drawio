@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Ub1HZWV3o09gRBObfq5j" name="矩阵变换的理解">
-        <mxGraphModel dx="964" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+        <mxGraphModel dx="1857" dy="830" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -403,8 +403,8 @@
                 <mxCell id="z90qtjDDIyWj6iaFOSli-308" value="x = Ex&lt;br&gt;z = Ez&lt;br&gt;z = Mx=E(Mx)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;strokeWidth=27;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="771" y="2034" width="236" height="138" as="geometry"/>
                 </mxCell>
-                <mxCell id="z90qtjDDIyWj6iaFOSli-309" value="x和v都是基于E的表示&lt;br&gt;M表示：E坐标系被旋转等(线性变换)变换到M坐标系，刚开始E下的x -&amp;gt; v" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;strokeWidth=27;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="345" y="2223" width="1143" height="96" as="geometry"/>
+                <mxCell id="z90qtjDDIyWj6iaFOSli-309" value="x和v都是基于E的表示&lt;br&gt;M表示：E坐标系被旋转等(线性变换)变换到M坐标系，刚开始E下的x 运动到 v" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;strokeWidth=27;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="309" y="2223" width="1216" height="96" as="geometry"/>
                 </mxCell>
                 <mxCell id="z90qtjDDIyWj6iaFOSli-187" value="x1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontColor=#000000;container=0;" parent="1" vertex="1">
                     <mxGeometry x="204" y="1031" width="50" height="40" as="geometry"/>
@@ -1595,11 +1595,17 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="3OZLf3wFlczAFtHssJgX-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1098" y="2039.52" width="40" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="3OZLf3wFlczAFtHssJgX-2" value="M是旋转矩阵，&lt;br&gt;起到了线性运动原来坐标系的作用&lt;br&gt;作用效果就是M的第一列和第二列&lt;br&gt;第一列就是v1, 第二列就是v2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=35;strokeWidth=27;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1074" y="1948.28" width="543" height="180" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="4IVE5nw8AxX9C9lzIOdg" name="正交投影">
-        <mxGraphModel dx="1300" dy="759" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+        <mxGraphModel dx="1300" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1724,7 +1730,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="RhI6Wi9aW5jrvvRkMTWN" name="理解XVV^T">
-        <mxGraphModel dx="1300" dy="1737" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="1" shadow="0">
+        <mxGraphModel dx="1300" dy="1750" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -2214,7 +2220,7 @@
                 <mxCell id="5hBDbDDndDfoid9f-SBu-10" value="XV" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="224" y="219" width="50" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="FIAmqM6w6jlxceBt4hIH-2" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 19px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px; line-height: 19px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;理解XV和含义：&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;前提：X是每行一个样本，有n个样本&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;则XV含义：X的每个样本(每行)(的D个特征)，重新映射/投影到V方向上去&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;得到的结果：还是有n个样本，每个样本的原有特征被重新映射/投影到V上去了&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=16;" vertex="1" parent="1">
+                <mxCell id="FIAmqM6w6jlxceBt4hIH-2" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 19px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;font-size: 16px; line-height: 19px;&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;理解XV和含义：&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;前提：X是每行一个样本，有n个样本&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;则XV含义：X的每个样本(每行)(的D个特征)，重新映射/投影到V方向上去&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;得到的结果：还是有n个样本，每个样本的原有特征被重新映射/投影到V上去了&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="340" y="8" width="759" height="98" as="geometry"/>
                 </mxCell>
             </root>
